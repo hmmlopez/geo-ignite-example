@@ -9,7 +9,7 @@ import org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.Arrays;
+import java.util.Collections;
 
 @Configuration
 public class AppConfig {
@@ -34,7 +34,7 @@ public class AppConfig {
     }
 
     private TcpDiscoveryVmIpFinder ipFinder() {
-        return new TcpDiscoveryVmIpFinder().setAddresses(Arrays.asList("localhost:47500"));
+        return new TcpDiscoveryVmIpFinder().setAddresses(Collections.singletonList("localhost:47500"));
     }
 
 }
