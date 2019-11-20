@@ -43,11 +43,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--<dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter</artifactId>
-                <version>${springboot.version}</version>
-            </dependency>-->
             <dependency>
                 <groupId>org.apache.ignite</groupId>
                 <artifactId>ignite-slf4j</artifactId>
@@ -63,28 +58,6 @@
                 <artifactId>ignite-geospatial</artifactId>
                 <version>${ignite-geo.version}</version>
             </dependency>
-            <!--<dependency>
-                <groupId>org.locationtech.jts</groupId>
-                <artifactId>jts-core</artifactId>
-                <version>1.16.1</version>
-            </dependency>-->
-
-            <!--<dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <optional>true</optional>
-            </dependency>-->
-            <!--<dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-test</artifactId>
-                <scope>test</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.junit.vintage</groupId>
-                        <artifactId>junit-vintage-engine</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>-->
         </dependencies>
     </dependencyManagement>
 
