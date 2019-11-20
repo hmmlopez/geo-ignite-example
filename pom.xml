@@ -37,13 +37,6 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${springboot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
                 <groupId>org.apache.ignite</groupId>
                 <artifactId>ignite-slf4j</artifactId>
                 <version>${ignite.version}</version>

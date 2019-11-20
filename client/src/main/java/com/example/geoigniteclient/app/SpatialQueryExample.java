@@ -61,5 +61,7 @@ public class SpatialQueryExample implements ApplicationRunner {
             }
         }
 
+        ignite.close();
+
     }
 }
