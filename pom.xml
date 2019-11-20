@@ -24,7 +24,6 @@
         <h2.version>1.4.197</h2.version>
         <ignite.version>2.7.6</ignite.version>
         <ignite-geo.version>2.7.2</ignite-geo.version>
-        <springboot.version>2.2.1.RELEASE</springboot.version>
     </properties>
 
     <repositories>
